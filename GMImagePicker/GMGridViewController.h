@@ -17,5 +17,5 @@
 @property (strong) PHFetchResult *assetsFetchResults;
 
 -(id)initWithPicker:(GMImagePickerController *)picker;
-    
+-(BOOL)isLandscape;
 @end
